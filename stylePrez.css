@@ -1,0 +1,174 @@
+/*police du titre du site*/
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
+/* parametre photo principale*/
+#photo_principale {
+  background: url(media/bg/bg2.jpg) no-repeat fixed 10% 50%;
+  background-size: cover;
+  padding-top: 10%;
+  height: 800px;
+}
+
+/* Style du texte h1 et h3 sur la photo principale*/
+#photo_principale h1{
+  color:white;
+  text-align: center;
+  font-size: 100px;
+  font-family: Permanent Marker, sans-serif;
+  text-shadow: 10px 10px black;
+}
+
+h3{
+  color:white;
+  text-align: center;                                                                         
+  font-size: 30px;
+  font-style: italic;
+  font-family: Permanent Marker,cursive;
+  text-shadow: 5px 5px black;
+}
+
+.navbar img
+{
+  float: left;
+  display: block;
+  padding: 0px 10px;
+}
+
+/*positionnement et paramètre barre de navigation*/
+.navbar {
+  overflow: hidden;
+  position: fixed;
+  position: -webkit-fixed;
+}
+
+.navbar a:hover {
+color: white;
+border-radius: 10px;
+border-style: solid;
+border-color: gold;
+}
+
+
+/* Style de la bar de navigation */
+.navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 20px 10px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+/*positionnement du logo et paramètre*/
+#logo img{
+padding-top: 0px;
+}
+
+/*Style du body*/
+body
+{
+  background: url(media/bg/bg2.jpg) no-repeat fixed 10% 50%;
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+  height: 200px;
+  font-family: Helvetica,cursive;
+}
+
+/*Style du footer*/
+footer
+{
+  padding: 20px;
+  text-align: center;
+  background: linear-gradient(rgb(13, 1, 43) 5% , rgb(68, 52, 75), rgb(118, 94, 143) );
+  color: white;
+}
+
+.list li
+{
+  display: inline;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+a:link
+{
+  text-decoration: none;
+}
+a
+{
+  color: white;
+}
+
+#Prez {
+  color: white;
+  padding: 10px 0px 100px 0;
+}
+
+#Prez h2{
+  font-size: 55px;
+  font-style: italic;
+  text-align: center;
+  text-shadow: 2px 2px black;
+}
+
+#Prez p
+{
+  font-size: 22px;
+  margin-left: 10%;
+  margin-right: 10%;
+  text-shadow: 1px 1px black;
+}
+
+.photos {
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0 4px;
+  justify-content: space-around;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+/* Create four equal columns that sits next to each other */
+.colonne {
+  flex: 25%;
+  max-width: 25%;
+  padding: 0 4px;
+}
+
+.colonne img {
+  margin-top: 8px;
+  vertical-align: middle;
+  width: 100%;
+}
+
+.colonne img:hover{
+  transform: scale(1.7);
+  transition: 1s;
+}
+
+/* Responsive layout - makes a two column-layout instead of four columns */
+@media screen and (max-width: 800px) {
+  .colonne {
+    flex: 50%;
+    max-width: 50%;
+  }
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 600px) {
+  .colonne {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
+
+.pictures{
+  padding-bottom: 5%;
+}
+
+video{
+  padding-top: 10px;
+}

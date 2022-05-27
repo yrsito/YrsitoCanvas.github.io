@@ -1,0 +1,190 @@
+/*police du titre du site*/
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
+/* parametre photo principale*/
+#photo_principale {
+  background: url(media/bg/w5.jpg) no-repeat fixed 10% 50%;
+  background-size: cover;
+  padding-top: 10%;
+  height: 800px;
+}
+
+/* Style du texte h1 et h3 sur la photo principale*/
+#photo_principale h1{
+  color:white;
+  text-align: center;
+  font-size: 100px;
+  font-family: Permanent Marker, sans-serif;
+  text-shadow: 10px 10px black;
+}
+
+h3{
+  color:white;
+  text-align: center;                                                                         
+  font-size: 30px;
+  font-style: italic;
+  font-family: Permanent Marker,cursive;
+  text-shadow: 5px 5px black;
+}
+
+.navbar img
+{
+  float: left;
+  display: block;
+  padding: 0px 10px;
+}
+
+/*positionnement et paramètre barre de navigation*/
+.navbar {
+  overflow: hidden;
+  position: fixed;
+  position: -webkit-fixed;
+}
+
+/* Style de la bar de navigation */
+.navbar a {
+  float: left;
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 20px 10px;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+.navbar a:hover {
+color: white;
+border-radius: 10px;
+border-style: solid;
+border-color: gold;
+}
+/*positionnement du logo et paramètre*/
+#logo img{
+padding-top: 0px;
+}
+
+/*Style du body*/
+body
+{
+  background: url(media/bg/w5.jpg) no-repeat fixed 10% 50%;
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+  height: 200px;
+  font-family: Helvetica,cursive;
+}
+
+/*Style du footer*/
+footer
+{
+  padding: 20px;
+  text-align: center;
+  background: linear-gradient(rgb(13, 1, 43) 5% , rgb(68, 52, 75), rgb(118, 94, 143) );
+  color: white;
+}
+
+.list li
+{
+  display: inline;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+a:link
+{
+  text-decoration: none;
+}
+a
+{
+  color: white;
+}
+
+.choix {
+  position: relative;
+  width: 33,33%;
+  float: left;
+  padding: 5px;
+  text-align: center;
+  color: white;
+  font-size: 25px;
+}
+
+.produit::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.image {
+  opacity: 1;
+  display: inline-block;
+  height: auto;
+  transition: .5s ease;
+  backface-visibility: hidden;
+  padding-left: 25%;
+  padding-right: 25%;
+}
+
+.prix {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.choix:hover .image {
+  opacity: 0.3;
+  transform: scale(1.1);
+}
+
+.choix:hover .prix {
+  opacity: 1;
+}
+
+.text {
+  background-color: #0462aa;
+  color: white;
+  font-size: 16px;
+  padding: 16px 32px;
+}
+
+.produit{
+  box-sizing: border-box;
+  padding-bottom: 3%;
+}
+
+.produit h1{
+  text-align: center;
+  font-size: 55px;
+  color: white;
+  font-style: italic;
+  text-shadow: 2px 2px black;
+}
+
+h2{
+  text-align: center;
+  font-size: 50px;
+  color: white;
+  padding-top: 2%;
+  text-shadow: 2px 2px black;
+}
+
+h6 {
+  text-align: center;
+  font-size: 15px;
+  color: white;
+  text-shadow: 2px 2px black;
+}
+
+h5{
+  text-shadow: 2px 2px black;
+}
+
+.produit h1{
+  padding-bottom: 5%;
+}
